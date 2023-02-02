@@ -13,11 +13,24 @@
   display: flex;
 }
 
+.slogan-left {
+  flex: 1;
+}
+
 .slogan-sentence-left {
   font-size: 180px;
   font-family: NB International, Arial;
   text-align: right;
   text-align: bottom;
+}
+
+.slogan-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.blank {
   flex: 1;
 }
 
@@ -26,7 +39,6 @@
   font-family: NB International, Arial;
   text-align: left;
   flex: 1;
-  margin-top: 540px;
 }
 
 .slogan-button {
