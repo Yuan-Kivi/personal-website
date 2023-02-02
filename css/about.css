@@ -1,0 +1,181 @@
+.about {
+  color:black;
+}
+
+.about-me {
+  height: 660px;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  display: flex;
+}
+
+.about-me-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-picture {
+  flex: 1;
+  height: 500px;
+  text-align: center;
+}
+
+.selfie {
+  height: 100%;
+  border-radius: 32px;
+}
+
+.SOP {
+  flex: 1;
+}
+
+.my-label {
+  font-family: Inter, Arial;
+  font-weight: 800;
+  color: rgb(170, 99, 110);
+  font-size: 20px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.about-me-title {
+  font-family: Merriweather Sans, Arial;
+  font-weight: 700;
+  font-size: 44px;
+  color: rgb(40, 38, 38);
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.SOP-content p {
+  margin-bottom: 28px;
+  font-family: Merriweather Sans, Arial;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #392f41;
+}
+
+.down-cv {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725ac1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #725ac1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725ac1;
+  font-weight: 500;
+  font-family: Merriweather Sans, Arial;
+}
+
+.down-cv:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725ac1;
+}
+
+.down-cv:active {
+  transform: scale(0.9);
+}
+
+#last-paragraph {
+  margin-bottom: 40px;
+}
+
+.experience-title {
+  font-family: Merriweather Sans, Arial;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 76px;
+  margin-top: 80px;
+}
+
+.experience-unit {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-bottom: 60px;
+}
+
+.experience {
+  display: flex;
+  color: #160f1b;
+}
+
+.experience-middle {
+  width: 1120px;
+}
+
+.job-name, .project-title {
+  font-size: 24px;
+  font-family: Merriweather Sans, Arial;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.company-name {
+  font-size: 18px;
+  font-family: Merriweather Sans, Arial;
+  color: rgb(170, 99, 110);
+}
+
+.during-time {
+  font-size: 14px;
+  font-family: Merriweather Sans, Arial;
+  font-weight: 300;
+}
+
+.job-content, .research-content {
+  font-size: 18px;
+  font-family: Merriweather Sans, Arial;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.experience-unit p {
+  margin-bottom: 10px;
+}
+
+.research-unit p {
+  margin-bottom: 10px;
+}
+
+.research {
+  display: flex;
+  color: #160f1b;
+}
+
+.research-middle {
+  width: 1120px;
+}
+
+.research-title {
+  font-family: Merriweather Sans, Arial;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 76px;
+  margin-top: 80px;
+  text-align: right;
+}
+
+.research-unit {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin-bottom: 60px;
+}
+
+.project-detail {
+  text-align: right;
+}
+
+.professor-name {
+  font-size: 18px;
+  font-family: Merriweather Sans, Arial;
+  color: rgb(91, 98, 165);
+}
