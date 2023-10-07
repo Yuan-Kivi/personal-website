@@ -112,14 +112,14 @@
   width: 1120px;
 }
 
-.job-name, .project-title {
+.company-name, .project-title {
   font-size: 24px;
   font-family: Merriweather Sans, Arial;
   font-weight: 600;
   font-style: italic;
 }
 
-.company-name {
+.job-name {
   font-size: 18px;
   font-family: Merriweather Sans, Arial;
   color: rgb(170, 99, 110);
@@ -174,7 +174,7 @@
   text-align: right;
 }
 
-.professor-name {
+.position {
   font-size: 18px;
   font-family: Merriweather Sans, Arial;
   color: rgb(91, 98, 165);
